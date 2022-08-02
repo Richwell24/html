@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>VideoLab</title>
+        <link rel="stylesheet" href="../css/videolab.css">
+    </head>
+    <body>
+        <div class="top">
+            <div class="nav-container">
+                <h1>VideoLab</h1>
+                <input type="text" placeholder="Search" name="query" class="search">
+                <button class="btn">Login</button>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="col-1">
+                <video src="PexelsVideos.mp4" height="400" muted loop onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"></video>
+                <div class="row">
+                    <div class="start">
+                        <h1>Example Video Title</h1>
+                        <h3>1.3K Views | July 30, 2022</h3>
+                        <div class="user">
+                            <img src="user.png" alt="user" class="avatar">
+                            <span class="user">Example User Name</span>
+                        </div>
+                    </div>
+                    <button class="btn">Subscibe</button>
+                </div>
+            </div>
+            <div class="col-r">
+                <h3 class="sub-header">Up Next</h3>
+                <div class="video-small">
+                    <img src="video-placeholder.png" alt="video-placeholder" class="vid-s">
+                    <span class="video-title">Not a Rick Roll</span>
+                </div>
+                <div class="video-small">
+                    <img src="video-placeholder.png" alt="video-placeholder" class="vid-s">
+                    <span class="video-title">10 Facts About ET's Cats</span>
+                </div>
+                <div class="video-small">
+                    <img src="video-placeholder.png" alt="video-placeholder" class="vid-s">
+                    <span class="video-title">5 Cosplay Tips</span>
+                </div>
+                <div class="video-small">
+                    <img src="video-placeholder.png" alt="video-placeholder" class="vid-s">
+                    <span class="video-title">Boy battles Dinobot</span>
+                </div>
+            </div>
+        </div>
+        <script src="../js/videolab.js"></script>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    background-color: lavender;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+img.octocat{
+    height: 200px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(73, 147, 150);
+    margin: 20px;
+}
+.pink{
+    background-color: lightcoral;
+    justify-content: space-around;
+}
+.green{
+    background-color: lightgreen;
+    justify-content: space-evenly;
+}
+.gray{
+    background-color: lightgray;
+    justify-content: center;
+}
